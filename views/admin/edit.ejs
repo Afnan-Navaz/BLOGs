@@ -1,0 +1,12 @@
+<%- include('../partials/head.ejs') %>
+<%- include('../partials/header.ejs', {title : 'AdMiN'}) %>
+<form autocomplete="off" class="add" method="POST" action="/admin/edits">
+    <input type="hidden" name="_id" value="<%= blog._id %>">
+    <input value="<%= blog.title %> " class="title inp" placeholder="Title" type="text" name="title">
+    <input value="<%= blog.snippet %>" class="snippet inp" placeholder="Snippet" type="text" name="snippet">
+    <textarea wrap="hard" class="content inp" type="text" name="content">
+            <%= blog.content %> 
+        </textarea>
+    <button class="sub" type="submit">publish</button>
+</form>
+<%- include('../partials/tail.ejs') %>

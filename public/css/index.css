@@ -1,0 +1,179 @@
+body {
+    background-color: #ebebeb;
+    padding: 5vw;
+    padding-top: 0%;
+    margin: 0%;
+    font-family: monospace;
+}
+
+header {
+    width: 100%;
+    min-height: 30vh;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    bottom: 1vw;
+}
+
+nav li {
+    list-style: none;
+    margin: 0.3vw;
+    font-size: 2.5vh;
+}
+
+nav a {
+    color: black;
+}
+
+.b-title {
+    margin: 0px;
+    text-align: center;
+    font-size: 6vw;
+    text-decoration: underline;
+    position: relative;
+    top: 7vh;
+}
+
+.blogs {
+    text-align: center;
+}
+
+.blog {
+    cursor: pointer;
+    margin-top: 5%;
+    border-bottom: solid 1px #212121;
+    flex: 10;
+}
+
+.add {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.inp {
+    background-color: #f5f5f5;
+    border: solid 0.5px #212121;
+    border-radius: 10px;
+    outline: none;
+}
+
+.add .title {
+    height: 15%;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.add .snippet {
+    margin-top: 1vh;
+    height: 8%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.content {
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    height: 75%;
+    padding: 1%;
+    font-size: 2vh;
+    resize: none;
+}
+
+.add .sub {
+    align-self: center;
+    background-color: #212121;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: #212121;
+    text-decoration: none;
+    font-size: 7vh;
+}
+
+.blog-snippet {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blog-content {
+    font-size: large;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+option {
+    flex: 1;
+}
+
+.option i {
+    font-size: 4vh;
+    cursor: pointer;
+    color: #212121;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #212121;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    margin-top: 20vh;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 6vh;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.login form input {
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.login form button {
+    background-color: #212121;
+    color: white;
+    width: 25%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5vh;
+}

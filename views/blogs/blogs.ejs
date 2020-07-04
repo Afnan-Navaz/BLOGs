@@ -1,0 +1,19 @@
+<%- include('../partials/head.ejs') %>
+<%- include('../partials/header.ejs', {title : 'BlOgS'}) %>
+<div class="blogs">
+    <% if(blogs) { %>
+    <% blogs.forEach(blog => { %>
+    <div class="blog" onclick="displayBlog('<%= blog._id %>')" id=<%= blog._id %>>
+        <h2> <%= blog.title %> </h2>
+        <p> <%= blog.snippet %> </p>
+    </div>
+    <% }) %>
+    <% } %>
+</div>
+
+<script>
+    function displayBlog(id) {
+        window.location.href = '/blogs/blog/' + id;
+    }
+</script>
+<%- include('../partials/tail.ejs') %>

@@ -1,0 +1,9 @@
+<%- include('../partials/head.ejs') %>
+<%- include('../partials/header.ejs', {title : 'AdMiN'}) %>
+<form autocomplete="off" class="add" method="POST" action="/admin/new">
+    <input class="title inp" placeholder="Title" type="text" name="title">
+    <input class="snippet inp" placeholder="Snippet" type="text" name="snippet">
+    <textarea wrap="hard" class="content inp" type="text" name="content"></textarea>
+    <button class="sub" type="submit">publish</button>
+</form>
+<%- include('../partials/tail.ejs') %>

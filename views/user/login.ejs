@@ -1,0 +1,17 @@
+<%- include('../partials/head.ejs') %>
+<div class="login">
+  <h1>login</h1>
+  <form autocomplete="off" action="/user/sign" method="POST">
+    <label>
+      username:
+      <input required type="text" name="username" />
+    </label>
+    <label>
+      password:
+      <input required type="password" name="password" />
+    </label>
+    <button type="submit">submit</button>
+  </form>
+</div>
+
+<%- include('../partials/tail.ejs') %>

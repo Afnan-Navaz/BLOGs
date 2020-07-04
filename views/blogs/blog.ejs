@@ -1,0 +1,7 @@
+<%- include('../partials/head.ejs') %>
+<%- include('../partials/header.ejs', {title : blog.title}) %>
+<div class="blog-idv">
+    <p class="blog-snippet"> <%= blog.snippet %> </p>
+    <pre wrap="soft" class="blog-content"> <%= blog.content %> </pre>
+</div>
+<%- include('../partials/tail.ejs') %>
