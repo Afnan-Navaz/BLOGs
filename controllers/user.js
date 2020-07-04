@@ -1,8 +1,19 @@
 const User = require("../models/user");
 const bcrypt = require("bcrypt");
 
-exports.login = (req, res) => {
-    res.render("user/login");
+exports.login = async (req, res) => {
+    try {
+        const useR = await User.find({});
+        let pname = "login";
+        if (useR.length === 0) {
+            pname = "sign";
+        }
+        res.render("user/login", {
+            pname
+        });
+    } catch (e) {
+        res.status(500).send(e);
+    }
 }
 
 exports.handleLogin = async (req, res) => {
