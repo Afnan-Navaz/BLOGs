@@ -2,6 +2,10 @@
     background-color: #41bb00;
 }
 
+.jumtex {
+    font-size: 15vw;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -48,6 +52,10 @@
 
     .form {
         width: 50%;
+    }
+
+    .jumtex {
+        font-size: 7vw;
     }
 }
 
