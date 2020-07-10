@@ -20,5 +20,3 @@ A simple blog written in Express.js
 - `npm start`
 - go to /admin
 
-
-[demo](https://bl0gs.herokuapp.com/blogs)
