@@ -10,7 +10,7 @@ const router = express.Router();
 router.get('/', getBlogs);
 router.get('/blog/:id', getBlog);
 router.get('/about', (_req, res) => {
-    res.send("work in progress");
+    res.render('blogs/about')
 })
 
 module.exports = router;
