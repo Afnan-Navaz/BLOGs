@@ -19,3 +19,4 @@ A simple blog written in Express.js
 - set `MONGO_URI` env variable
 - `npm start`
 - go to /admin
+
