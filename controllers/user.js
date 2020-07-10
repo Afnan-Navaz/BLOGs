@@ -4,9 +4,9 @@ const bcrypt = require("bcrypt");
 exports.login = async (req, res) => {
     try {
         const useR = await User.find({});
-        let pname = "login";
+        let pname = "Login";
         if (useR.length === 0) {
-            pname = "sign";
+            pname = "Sign";
         }
         res.render("user/login", {
             pname
