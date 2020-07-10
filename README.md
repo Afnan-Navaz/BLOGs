@@ -2,19 +2,20 @@
 
 A simple blog written in Express.js
 
-## Built with
+## Frameworks
 
-* node.js
-* express.js
-* mongoDB
-* mongoose
-* ejs
+- node.js
+- express.js
+- mongoDB
+- mongoose
+- ejs
+- bootstrap
 
-## How to use?
+## How to run
 
-* `git clone https://github.com/Afnan-Navaz/BLOGs.git`
-* `cd BlOGs`
-* `npm i`
-* set `MONGO_URI` env variable
-* `npm start`
-* go to /admin
+- `git clone https://github.com/Afnan-Navaz/BLOGs.git`
+- `cd BlOGs`
+- `npm i`
+- set `MONGO_URI` env variable
+- `npm start`
+- go to /admin
